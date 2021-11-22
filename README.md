@@ -20,3 +20,9 @@ Here I plot the density of car models, we can see the average number of car mode
 Since we are interested in the price of the car we should plot the density of car prices to get an understanding of the average price of a car. We can see most cars are £10000, the curve drops and then flattens around £20000 where a few more cars sit, the curve then flattens towards £50000 as we expect.
 
 <img src="Car_price_prediction/Images/Density_car_prices.jpeg" width="600"  >
+
+### Building a model
+Firstly, I started with a model that includes all variables. This way I can plot all residuals to detect outliers and more importantly determine if the data is suitable for multiple linear regression.
+
+<img src="Car_price_prediction/Images/Residual_plots_train.jpeg" width="600"  >
+
