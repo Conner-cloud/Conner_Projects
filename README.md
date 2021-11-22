@@ -9,4 +9,5 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
 After cleaning the data so that all car models were listed under the name of the brand (e.g. Volkwagen Golf 2007 -> VW) I plotted the distribution of car models.
+
 <img src="Car_price_prediction/Images/Distribution_brands.jpeg" width="600"  >
