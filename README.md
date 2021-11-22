@@ -7,5 +7,6 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Removes insignificant variables from the model using Backwards Elimination, allowing us to specify what variables have the largest impact on a cars value.
 * Visualises the density of car prices and models and distribution of car models.
 * Visualisation of residuals to ensure we obtain a very accurate model.
+
 After cleaning the data so that all car models were listed under the name of the brand (e.g. Volkwagen Golf 2007 -> VW) I plotted the distribution of car models.
 <img src="Car_price_prediction/Images/Distribution_brands.jpeg" width="600"  >
