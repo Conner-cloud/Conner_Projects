@@ -18,4 +18,4 @@ Here I plot the density of car models, we can see the average number of car mode
 
 Since we are interested in the price of the car we should plot the density of car prices to get an understanding of the average price of a car.
 
-<img src="Car_price_prediction/Images/Car_price_density.jpeg" width="600"  >
+<img src="Car_price_prediction/Images/Density_car_prices.jpeg" width="600"  >
