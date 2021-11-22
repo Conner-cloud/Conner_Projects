@@ -9,14 +9,14 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
 ### Visualising and Cleaning the Data
-After cleaning the data so that all car models were listed under the name of the brand (e.g. Volkwagen Golf 2007 -> VW) I plotted the distribution of car models. The bar chart shows cleanly which car brand has the most number of models (Toyota) and which has the least (Mercury). We can see that most car brands have around 10 models.
+After cleaning the data so that all car models were listed under the name of the brand (e.g. Volkwagen Golf 2007 -> VW) I plotted the distribution of car models. The bar chart shows cleanly which car brand has the most number of models (Toyota) and which has the least (Mercury). We can see that most car brands have around 10 models but this plot is not a good visualisation of averages.
 
 <img src="Car_price_prediction/Images/Distribution_brands.jpeg" width="600"  >
 
-Here I plot the density of car models, we can see the average number of car models between all brands. There is also a small peak at 32 models which we know to be Toyota from the bar chart above.
+Here I plot the density of car models, we can see the average number of car models between all brands more clearly. There is also a small peak at 32 models which we know to be Toyota from the bar chart above. The average number of models per car brand is about 9-10 models.
 
 <img src="Car_price_prediction/Images/Density_brands.jpeg" width="600"  >
 
-Since we are interested in the price of the car we should plot the density of car prices to get an understanding of the average price of a car.
+Since we are interested in the price of the car we should plot the density of car prices to get an understanding of the average price of a car. We can see most cars are £10000, the curve drops and then flattens around £20000 where a few more cars sit, the curve then flattens towards £50000 as we expect.
 
 <img src="Car_price_prediction/Images/Density_car_prices.jpeg" width="600"  >
