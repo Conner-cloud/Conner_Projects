@@ -15,3 +15,7 @@ After cleaning the data so that all car models were listed under the name of the
 Here I plot the density of car models, we can see the average number of car models between all brands. There is also a small peak at 32 models which we know to be Toyota from the bar chart above.
 
 <img src="Car_price_prediction/Images/Density_brands.jpeg" width="600"  >
+
+Since we are interested in the price of the car we should plot the density of car prices to get an understanding of the average price of a car.
+
+<img src="Car_price_prediction/Images/Car_price_density.jpeg" width="600"  >
