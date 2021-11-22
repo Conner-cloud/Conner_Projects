@@ -24,5 +24,12 @@ Since we are interested in the price of the car we should plot the density of ca
 ### Building a model
 Firstly, I started with a model that includes all variables. This way I can plot all residuals to detect outliers and more importantly determine if the data is suitable for multiple linear regression.
 
+* Residuals VS Fitted: The red line is horizontal suggesting linearity and there are an equal number of residuals above and below the line suggesting zero-mean.
+* Normal Q-Q plot: Majority of the residuals are on  or close to the diagonal line suggesting normality.
+* Scale-Location: Mostly horizontal line suggesting the assumption of contant variance is upheld by our model.
+* Residual VS leverage: We can identify one outlier in the bottom right.
+
 <img src="Car_price_prediction/Images/Residual_plots_train.jpeg" width="600"  >
+
+Overall it appears our model is a good fit and suitable for prediction using Multiple Linear Regression. However, we need to deal with the outlier identified and we can also make our model simpler without reducing the accuracy of the model. Using Backward Elimination or Forward Selection we can remove insignificant variables from the model and build a simpler one to use for prediction.
 
