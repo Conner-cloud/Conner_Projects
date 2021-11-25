@@ -41,7 +41,7 @@ Overall it appears our model is a good fit and suitable for prediction using Mul
 
 Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model.
 
-<img src="Car_price_prediction/Images/F-test_forw_back.png" width="400"  >
+<img src="Car_price_prediction/Images/F-test_forw_back.png" width="600"  >
 
 
 
