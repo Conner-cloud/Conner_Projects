@@ -53,5 +53,5 @@ Finally, I looked at the AIC values for both the original and backward model. Th
 ### Model Accuracy
 Now I have built and optimised the model, I found and plotted the accuracy.
 
-<img src="Car_price_prediction/Images/F-test_original_back.png" width="500"  >
+<img src="Car_price_prediction/Images/Accuracy_plot.jpeg" width="600"  >
 
