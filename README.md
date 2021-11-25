@@ -39,9 +39,14 @@ Overall it appears our model is a good fit and suitable for prediction using Mul
 ### Backward model
 <img src="Car_price_prediction/Images/Backward_model.png" width="400"  >
 
-Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model.
+### Comparing models
+Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model. The F-test below shows that the F-statistic is significant. Hence we have evidence to reject the null hypothesis that the models are not significantly different. We have enough evidence to say that the backward model is a better predictor than the forward model.
 
 <img src="Car_price_prediction/Images/F-test_forw_back.png" width="500"  >
+
+Now lets compare the backward model to the original model we started with to make sure that performing a backward elimination hasn't made the model worse for prediction.
+
+<img src="Car_price_prediction/Images/F-test_orig_back.png" width="500"  >
 
 
 
