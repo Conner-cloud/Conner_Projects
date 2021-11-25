@@ -33,7 +33,8 @@ Firstly, I started with a model that includes all variables. This way I can plot
 
 Overall it appears our model is a good fit and suitable for prediction using Multiple Linear Regression. However, we need to deal with the outlier identified and we can also make our model simpler without reducing the accuracy of the model. Using Backward Elimination or Forward Selection we can remove insignificant variables from the model and build a simpler one to use for prediction.
 
-
+<img src="Car_price_prediction/Images/Forward_model_table.jpeg" width="600"  >
+<img src="Car_price_prediction/Images/Backward_model_table.jpeg" width="600"  >
 
 
 
