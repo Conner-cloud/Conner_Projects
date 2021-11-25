@@ -46,7 +46,7 @@ Comparing the two models, the backward model appears to have more significant va
 
 Now lets compare the backward model to the original model we started with to make sure that performing a backward elimination hasn't made the model worse for prediction.
 
-<img src="Car_price_prediction/Images/F-test_orig_back.png" width="500"  >
+<img src="Car_price_prediction/Images/F-test_original_back.png" width="500"  >
 
 
 
