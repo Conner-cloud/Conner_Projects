@@ -40,15 +40,15 @@ Overall it appears our model is a good fit and suitable for prediction using Mul
 <img src="Car_price_prediction/Images/Backward_model.png" width="400"  >
 
 ### Comparing models
-Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model. The F-test below shows that the F-statistic is significant. Hence we have evidence to reject the null hypothesis that the models are not significantly different. We have enough evidence to say that the backward model is a better predictor than the forward model.
+Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model. The F-test below shows that the F-statistic is significant. Hence I have evidence to reject the null hypothesis that the models are not significantly different. We have enough evidence to say that the backward model is a better predictor than the forward model.
 
 <img src="Car_price_prediction/Images/F-test_forw_back.png" width="500"  >
 
-Now lets compare the backward model to the original model we started with to make sure that performing a backward elimination hasn't made the model worse for prediction.
+Now lets compare the backward model to the original model we started with to make sure that performing a backward elimination hasn't made the model worse for prediction. Performing another F-test I found that the F-statistic was not significant, thus I failed to reject the null hypothesis that the models are not significantly different. This suggests that the backward model is not significantly affecting our prediction of car prices compared to the original model, this is a good sign!
 
 <img src="Car_price_prediction/Images/F-test_original_back.png" width="500"  >
 
-
+Finally, I looked at the AIC values for both the original and backward model. The backward model AIC was 3480.483 whilst the original model AIC was 3487.939, the original model AIC is slightly higher implying our backward model is infact a better fit. So we naturally choose the backward model.
 
 
 
