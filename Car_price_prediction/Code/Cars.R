@@ -101,9 +101,14 @@ summary(backward_elimination$model)
 forward_selection <- ols_step_forward_p(fitted_model, penter = 0.05)
 summary(forward_selection$model)
 
-# Backward elimination model has a better R square and thus we prefer it.
+# Comparing models
+anova(backward_elimination$model, forward_selection$model)
+# Significant F test suggests there is significant difference between the forward and backward model.
+
+# Backward elimination model has a better R square.
 backward_model <- backward_elimination$model
 coef(backward_model)
+# Given the F-test and comparing the values of R square we have enough evidence to suggest the backward model is better
 
 # Lets compare this model to the original
 anova(backward_model, fitted_model)
@@ -160,16 +165,16 @@ difference <- ((actual-predicted)/actual)
 accuracy <- 1-mean(abs(difference))
 accuracy
 # We obtained a model that is 90.9 % accurate at predicting car prices.
-# This model can accurately depict the price of a car based on it's specifications and would be benifitial to car retailers.
+# This model can accurately depict the price of a car based on it's specifications and would be beneficial to car retailers.
 
 # Using backward elimination, we can say that these factors were the most important in determining the price of a car:
 # The Brand of the car had a large impact on it's price
-  # Cars from audi, bmw, buick, jaguar, porsche, saab increased the prediction of the price of the car
+  # Cars from audi, bmw, buick, jaguar, porsche, saab increased the price of the car
     # bmw, porsche and buick had the largest coefficients meaning they have the biggest influence in increasing the cars price
     # Audi has the coefficient closest to zero, meaning it had the lowest impact on determining a cars price
   # Cars from plymouth decreased the predicted price of the car by the largest amount.
-  # Turbocharges engines increased the price of the car
+  # Turbocharged engines increased the price of the car
   # Hatchbacks decreased the price of the car the most compared to other body types
   # Sedans tend to be the most expensive
-  # The engine being located in the rear of the vehicle increases the price of the car immensely.
+  # The engine being located in the rear of the vehicle increases the price of the car immensely (this is expected as they're likely modern sports cars).
   # Three and two cylinder engines tend to be the most expensive (this could be due to older sports cars which inflate the price/power ratio we expect)
