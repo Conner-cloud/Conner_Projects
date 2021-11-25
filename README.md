@@ -5,7 +5,7 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Created an R program that builds a prediction model based on car specifications such as: Brand, Body type, number of cylinders and more with 91% accuracy.
 * Cleans the data to ensure it is easy to read and work with.
 * Removes insignificant variables from the model using Backwards Elimination, allowing us to specify what variables have the largest impact on a cars value.
-* Visualises the density of car prices and models and distribution of car models.
+* Visualises the density of car prices and models and distribution of car models, as well as the accuracy of the model obtained.
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
 ### Visualising and Cleaning the Data
@@ -38,6 +38,10 @@ Overall it appears our model is a good fit and suitable for prediction using Mul
 
 ### Backward model
 <img src="Car_price_prediction/Images/Backward_model.png" width="400"  >
+
+Comparing the two models, the backward model appears to have more significant variables as well as having a higher R-squared value, suggesting it is the better model.
+
+<img src="Car_price_prediction/Images/F-test_forw_back.png" width="400"  >
 
 
 
