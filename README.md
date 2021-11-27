@@ -10,6 +10,6 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
 ### [Details](https://conner-cloud.github.io/Car_price_prediction/)
-### [Code]()
+### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Car_price_prediction/Code/Cars.R)
 
 ## [Project 2: Forecasting Intel stocks volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
