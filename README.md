@@ -58,4 +58,10 @@ Now I have built and optimised the model, I tested and plotted the accuracy. Bel
 
 <img src="Car_price_prediction/Images/Accuracy_plot.jpeg" width="600"  >
 
-I obtained a RMSE of 1585.695 on the training data, this means we have an average error of + or - 1585.695. This is expected given that we are dealing with very large numbers for price. The RMSE for the the test data which accounted for 5% of the dataset was 1447.244; this suggest we maybe slightly under-fitting the dataset for more expensive cars but not by enough to significantly impact the models accuracy. 
+I obtained a RMSE of 1585.695 on the training data, this means we have an average error of + or - 1585.695. This is expected given that we are dealing with very large numbers for price. The RMSE for the the test data which accounted for 5% of the dataset was 1447.244; this suggest we maybe slightly under-fitting the dataset for more expensive cars but not by enough to significantly impact the models accuracy.
+
+I then obtained a number for the accuracy of our model by taking the difference of each predicted price against the actual price per car, divided it by the actual price to obtain the accuracy of each prediction and then took the average (absolute) accuracy of each prediction to obtain the average accuracy of each prediction made by our model. The result was 90.9% accuracy. This is a very good result and would be greatly benefitial to car retailers trying to estimate prices of cars based on their specifications.
+
+I found that the most significant variables for increasing/decreasing the value of car were:
+* The Brand of the car
+ * fff
