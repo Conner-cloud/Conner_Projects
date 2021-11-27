@@ -64,4 +64,4 @@ I then obtained a number for the accuracy of our model by taking the difference 
 
 I found that the most significant variables for increasing/decreasing the value of car were:
 * The Brand of the car
- -> 
+* sub The
