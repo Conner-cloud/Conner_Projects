@@ -9,6 +9,8 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualises the density of car prices and models and distribution of car models, as well as the accuracy of the model obtained.
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
+<img src="Car_price_predictor/Images/Distribution_brands.jpeg" width="400"  > <img src="Images/Distribution_brands.jpeg" width="400"  >
+
 ### [Details](https://conner-cloud.github.io/Car_price_prediction/)
 ### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Car_price_prediction/Code/Cars.R)
 
