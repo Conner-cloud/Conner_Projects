@@ -44,7 +44,7 @@ Finally, I looked at the AIC values for both the original and backward model. Th
 As you can see it's almost identical to the original model's residuals except that the outlier is now gone which is great.
 
 ### Conclusions
-Now I have built and optimised the model, I tested and plotted the accuracy. Below is the plot of the predicted price made by my model against the actual price of the car, as you can see many of the points lay on the diagonal red line suggesting our model is a great predictor.
+Now I have built and optimised the model, I could then test and plot the accuracy. Below is the plot of the predicted price made by my model against the actual price of the car, as you can see many of the points lay on the diagonal red line suggesting our model is a great predictor.
 
 <img src="Images/Accuracy_plot.jpeg" width="600"  >
 
