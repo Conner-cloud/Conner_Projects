@@ -62,8 +62,37 @@ I obtained a RMSE of 1585.695 on the training data, this means we have an averag
 
 I then obtained a number for the accuracy of our model by taking the difference of each predicted price against the actual price per car, divided it by the actual price to obtain the accuracy of each prediction and then took the average (absolute) accuracy of each prediction to obtain the average accuracy of each prediction made by our model. The result was 90.9% accuracy. This is a very good result and would be greatly benefitial to car retailers trying to estimate prices of cars based on their specifications.
 
-I found that the most significant variables for increasing/decreasing the value of car were:
+The effect and significance of the variables in our model:
 * The Brand of the car
   *  Cars from audi, bmw, buick, jaguar, porsche, saab increased the predicted price of the car.
      * bmw, porsche and buick had the largest coefficients meaning they have the biggest influence in increasing the cars price.
-    
+     * Audi has the coefficient closest to zero, meaning it had the smallest effect on determining a cars price compared to other brands.
+  * Cars from plymouth decreased the predicted price of the car by the largest amount.
+* Cars with turbo-charged engines are more likely to be more expensive.
+* Hatchbacks decreased the price of the car the most compared to other body types.
+* Sedans tend to be the most expensive compared to other body types.
+* The engine being located in the rear of the vehicle increases the price of the car immensely (most sports cars have engines located at the back of the vehicle).
+* Engines with three cylinders increased the predicted price of the car the most, followed by two cylinder engines.
+* The larger the engine, the higher the predicted price.
+* Higher peak rpm increases the predicted price.
+
+The most significant variables were:
+* Brand = BMW
+* Brand = Honda
+* Brand = Dodge
+* Brand = Mitsubishi
+* Brand = Peugeot
+* Brand = Plymouth
+* Brand = Renault
+* Aspiration Turbo
+* Carbody = Hatchback
+* Enginelocation = Rear
+* wheel base
+* car length
+* car width
+* car height
+* curb weight
+* cylinder number = twelve
+* engine size
+* bore ratio
+* peak RPM
