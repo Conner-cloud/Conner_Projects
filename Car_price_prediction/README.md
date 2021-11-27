@@ -40,7 +40,7 @@ Now lets compare the backward model to the original model we started with to mak
 
 Finally, I looked at the AIC values for both the original and backward model. The backward model AIC was 3480.483 whilst the original model AIC was 3487.939, the original model AIC is slightly higher implying our backward model is infact a better fit. So we naturally choose the backward model. I then plotted the residuals of the backward model:
 
-<img src="CImages/Residual_plots_backward.jpeg" width="600"  >
+<img src="Images/Residual_plots_backward.jpeg" width="600"  >
 As you can see it's almost identical to the original model's residuals except that the outlier is now gone which is great.
 
 ### Conclusions
