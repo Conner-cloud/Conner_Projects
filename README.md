@@ -51,6 +51,7 @@ Now lets compare the backward model to the original model we started with to mak
 Finally, I looked at the AIC values for both the original and backward model. The backward model AIC was 3480.483 whilst the original model AIC was 3487.939, the original model AIC is slightly higher implying our backward model is infact a better fit. So we naturally choose the backward model. I then plotted the residuals of the backward model:
 
 <img src="Car_price_prediction/Images/Residual_plots_backward.jpeg" width="600"  >
+As you can see it's almost identical to the original model's residuals except that the outlier is now gone which is great.
 
 ### Conclusions
 Now I have built and optimised the model, I tested and plotted the accuracy. Below is the plot of the predicted price made by my model against the actual price of the car, as you can see many of the points lay on the diagonal red line suggesting our model is a great predictor.
