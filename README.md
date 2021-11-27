@@ -104,4 +104,4 @@ The most significant variables were:
  </br>
 </details>
 
-## [Project 2: Forecasting Intel stock volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
+## [Project 2: Forecasting Intel stocks volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
