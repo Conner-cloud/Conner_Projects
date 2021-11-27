@@ -64,4 +64,6 @@ I then obtained a number for the accuracy of our model by taking the difference 
 
 I found that the most significant variables for increasing/decreasing the value of car were:
 * The Brand of the car
-  *  the
+  *  Cars from audi, bmw, buick, jaguar, porsche, saab increased the predicted price of the car.
+    * bmw, porsche and buick had the largest coefficients meaning they have the biggest influence in increasing the cars price.
+    * 
