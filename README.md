@@ -10,7 +10,6 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
 
-<details>
  <summary>Details</summary>
  <br>
  
@@ -123,6 +122,6 @@ The most significant variables were:
 * peak RPM
  
  </br>
-</details>
+
 
 ## [Project 2: Forecasting Intel stocks volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
