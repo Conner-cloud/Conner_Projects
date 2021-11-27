@@ -104,4 +104,4 @@ The most significant variables were:
  </br>
 </details>
 
-Hi
+## [Project 2: Forecasting Intel stock volume for the next 5 years](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
