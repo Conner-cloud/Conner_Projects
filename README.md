@@ -48,10 +48,13 @@ Now lets compare the backward model to the original model we started with to mak
 
 <img src="Car_price_prediction/Images/F-test_original_back.png" width="500"  >
 
-Finally, I looked at the AIC values for both the original and backward model. The backward model AIC was 3480.483 whilst the original model AIC was 3487.939, the original model AIC is slightly higher implying our backward model is infact a better fit. So we naturally choose the backward model.
+Finally, I looked at the AIC values for both the original and backward model. The backward model AIC was 3480.483 whilst the original model AIC was 3487.939, the original model AIC is slightly higher implying our backward model is infact a better fit. So we naturally choose the backward model. I then plotted the residuals of the backward model:
 
-### Model Accuracy
-Now I have built and optimised the model, I found and plotted the accuracy.
+<img src="Car_price_prediction/Images/Residual_plots_backward.jpeg" width="600"  >
+
+### Conclusions
+Now I have built and optimised the model, I tested and plotted the accuracy. Below is the plot of the predicted price made by my model against the actual price of the car, as you can see many of the points lay on the diagonal red line suggesting our model is a great predictor.
 
 <img src="Car_price_prediction/Images/Accuracy_plot.jpeg" width="600"  >
 
+I obtained a RMSE of 1585.695 on the training data, this means we have an average error of + or - 1585.695. This is expected given that we are dealing with very large numbers for price. The RMSE for the the test data which accounted for 5% of the dataset was 1447.244; this suggest we maybe slightly under-fitting the dataset for more expensive cars but not by enough to significantly impact the models accuracy. 
