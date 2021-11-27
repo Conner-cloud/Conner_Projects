@@ -126,7 +126,7 @@ backward_model_rmse <- train %>%
   mutate(pred.reg.train = predict(backward_model)) # produces estimates using our model
 
 # Plot the actual price against the predicted price from our model
-plot(backward_model_rmse$price, backward_model_rmse$pred.reg.train)
+plot(backward_model_rmse$price, backward_model_rmse$pred.reg.train, xlab = "Actual Price", ylab = "Predicted Price")
 abline(0,1, col = "red")
 # Strong positive correlation suggests out model is a very good predictor of car prices.
 # There are a two outliers where our model is predicting quite a bit under the actual amount.
