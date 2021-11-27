@@ -9,7 +9,7 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Visualises the density of car prices and models and distribution of car models, as well as the accuracy of the model obtained.
 * Visualisation of residuals to ensure we obtain a very accurate model.
 
-### [Details]()
+### [Details](https://conner-cloud.github.io/Car_price_prediction/)
 
 
 ## [Project 2: Forecasting Intel stocks volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
