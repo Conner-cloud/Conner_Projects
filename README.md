@@ -12,7 +12,7 @@ This portfolio contains a few projects I have been working on since I graduated 
 <Details>
 <summary>Details</summary>
 <br>
- 
+</Details>
  
 ### Visualising and Cleaning the Data
 After cleaning the data so that all car models were listed under the name of the brand (e.g. Volkwagen Golf 2007 -> VW) I plotted the distribution of car models. The bar chart shows cleanly which car brand has the most number of models (Toyota) and which has the least (Mercury). We can see that most car brands have around 10 models but this plot is not a good visualisation of averages.
@@ -122,6 +122,6 @@ The most significant variables were:
 * peak RPM
  
 </br>
-</Details>
+
 
 ## [Project 2: Forecasting Intel stocks volume for the next 5 years using ARIMA](https://github.com/Conner-cloud/Conner_Projects/tree/main/Intel_forecast_project)
