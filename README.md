@@ -27,8 +27,8 @@ This portfolio contains a few projects I have been working on since I graduated 
 * Outliers are identified and resolved to increase model accuracy.
 * Large dataset used for the best accuracy.
 
-<img src="Car_price_prediction/Images/Distribution_brands.jpeg" width="600"  > 
-<img src="Car_price_prediction/Images/Accuracy_predicted_plot.jpeg" width="600"  >
+<img src="Intel_forecast_project/Images/tend_correlation_analysis_plots.png" width="600"  > 
+<img src="Intel_forecast_project/Images/Volume_forecast_all_plot.png" width="600"  >
 
 ### [Details](https://conner-cloud.github.io/Intel_stock_forecast/)
 ### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Intel_forecast_project/Code/Intel_stocks.sas)
