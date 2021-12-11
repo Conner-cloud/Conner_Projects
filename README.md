@@ -1,5 +1,5 @@
 # Portfolio of Projects
-This portfolio contains a few projects I have been working on since I graduated with a Bachelor's in Mathematics. I use a variety of programming languages to visualise, predict, classify and forecast a variety of datasets. Feel free to contact me if you have any questions regarding any of the projects.
+This portfolio contains a few projects I have been working on since I graduated with a Bachelor's in Mathematics. I use a variety of programming languages to visualise, predict, classify and forecast a variety of datasets. Feel free to contact me if you have any questions regarding any of the projects. This portfolio is a work in process, I am currently working on learning Python and trying to solve a classification problem with machine learning.
 
 ## [Project 1: Building a car price prediction model with 91% accuracy using Multiple Linear Regression](https://github.com/Conner-cloud/Conner_Projects/tree/main/Car_price_prediction)
 ### Summary
