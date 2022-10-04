@@ -32,3 +32,5 @@ This portfolio contains a few projects I have been working on since I graduated 
 
 ### [Details](https://conner-cloud.github.io/Intel_stock_forecast/)
 ### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Intel_forecast_project/Code/Intel_stocks.sas)
+
+## [Project 3: Querying Covid data in SQL and visualization in Tableau](https://github.com/Conner-cloud/Conner_Projects/blob/main/Covid_Visualization/Code/Covid_Portfolio.sql)
