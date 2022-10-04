@@ -107,7 +107,7 @@ JOIN Covid_Portfolio..Covid_Vaccinations AS vac
 	AND death.date = vac.date
 WHERE death.continent IS NOT NULL
 
--- Triming down the code fopr visualisation
+-- Triming down the code for visualisation
 -- 1.
 SELECT SUM(new_cases) AS total_cases, SUM(CAST(new_deaths AS INT)) AS total_deaths, SUM(CAST(new_deaths AS INT))/SUM(New_Cases)*100 AS
 DeathPercentage
