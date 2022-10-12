@@ -39,3 +39,5 @@
 
 <img src="Covid_Visualization/Images/Dashboard.png" width="600"  > 
 
+### [Details](https://public.tableau.com/app/profile/conner8143/viz/CovidPortfolioDashboard_16644087621180/Dashboard1?publish=yes)
+### [Code](https://github.com/Conner-cloud/Covid_Deaths/blob/main/Code/Covid_Portfolio.sql)
