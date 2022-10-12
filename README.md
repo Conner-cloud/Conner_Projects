@@ -37,5 +37,5 @@
 * Created beautiful visualization in Tableau such as a heat map, bar chart, line graph (with a forecast) and tables.
 * Obtained the chance of death from all of the worlds covid data,
 
-<img src="Covid_Deaths/Images/Dashboard 1.png" width="600"  > 
+<img src="Covid_Deaths/Images/Dashboard.png" width="600"  > 
 
