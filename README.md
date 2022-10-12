@@ -31,3 +31,10 @@
 ### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Intel_forecast_project/Code/Intel_stocks.sas)
 
 ## [Project 3: Querying Covid data in SQL and visualization in Tableau](https://github.com/Conner-cloud/Conner_Projects/blob/main/Covid_Visualization/Code/Covid_Portfolio.sql)
+### Summary
+* Created a SQL query to create/select data and put it into data to be used in Tableau
+* Look at how each country was affected by covid from March 2020 to now.
+* Created beautiful visualization in Tableau such as a heat map, bar chart, line graph (with a forecast) and tables.
+* Obtained the chance of death from all of the worlds covid data,
+
+
