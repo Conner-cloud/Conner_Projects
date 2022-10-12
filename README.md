@@ -30,7 +30,7 @@
 ### [Details](https://conner-cloud.github.io/Intel_stock_forecast/)
 ### [Code](https://github.com/Conner-cloud/Conner_Projects/blob/main/Intel_forecast_project/Code/Intel_stocks.sas)
 
-## [Project 3: Querying Covid data in SQL and visualization in Tableau](https://github.com/Conner-cloud/Conner_Projects/blob/main/Covid_Visualization/Code/Covid_Portfolio.sql)
+## [Project 3: Querying Covid data in SQL and visualization in Tableau](https://github.com/Conner-cloud/Covid_Deaths)
 ### Summary
 * Created a SQL query to create/select data and put it into data to be used in Tableau
 * Look at how each country was affected by covid from March 2020 to now.
