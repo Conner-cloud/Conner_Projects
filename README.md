@@ -1,5 +1,6 @@
-To do:
-* ARIMA Forecast in R
-* Neural Network/Deep Learning task in Python
-* Machine Learning Classification using KNN or SVM
-* Machine Learning Classficication using K-Means Clustering
+# GitHub Portfolio - Conner
+### Contents:
+* Generalised additive one-inflated beta regression on stress.
+* NESO Generation Power BI Dashboard with Python API scrape tool.
+* Electric vehicle stocks/shares across the globe Power BI Dashboard with SQL data preparation.
+* 
